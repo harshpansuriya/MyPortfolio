@@ -4,11 +4,10 @@ const Quotes = () => {
   return (
     <div>
       <div>
-        <h1 className="mx-48 my-24 font-bold text-2xl text-white text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ab?
-          Veniam tempore perferendis nihil optio voluptatum, animi iure hic
-          suscipit dignissimos nulla, incidunt non voluptate ex aperiam beatae
-          sunt nesciunt.
+        <h1 className="mx-64 my-24 font-bold text-2xl text-white text-center">
+          I'm very passionate about coding, since my high school it's been more
+          than 4 year in this field, I learn and I know many technologies,
+          languages and keep leraning everyday new things.
         </h1>
       </div>
     </div>

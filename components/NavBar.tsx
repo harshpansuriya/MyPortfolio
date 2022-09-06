@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-black text-white border-b">
+    <div className="bg-black text-white border-b fixed w-full">
       <nav className="shadow-sm w-full z-10">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
@@ -18,46 +18,27 @@ const Navbar = () => {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <Link
-                    activeClass="Home"
-                    to="home"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                    className="cursor-pointer  font-semibold px-3 py-2 text-md hover:text-gray"
-                  >
-                    Home
-                  </Link>
-                  <Link
-                    activeClass="about"
-                    to="about"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                  <a
+                    href="https://realharsh.live/about-me/"
+                    target="_blank"
                     className="cursor-pointer hover:bg-white text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
-                  </Link>
-                  <Link
-                    activeClass="Blog"
-                    to="blog"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                  </a>
+                  <a
+                    href="https://realharsh.live/"
+                    target="_blank"
                     className="cursor-pointer hover:bg-white text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Blog
-                  </Link>
-                  <Link
-                    activeClass="Contact"
-                    to="contact"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                  </a>
+                  <a
+                    href="https://realharsh.live/about-me/"
+                    target="_blank"
                     className="cursor-pointer hover:bg-white text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -65,7 +46,7 @@ const Navbar = () => {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-blue-600 focus: outline-none focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+                className="bg-black inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black focus: outline-none focus:ring-offset-2 focus:ring-offset-black focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -129,9 +110,31 @@ const Navbar = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="cursor-pointer hover:bg-black text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Home
+                  About
+                </Link>
+                <Link
+                  href="/home"
+                  activeClass="home"
+                  to="home"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="cursor-pointer hover:bg-black text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Blog
+                </Link>
+                <Link
+                  href="/home"
+                  activeClass="home"
+                  to="home"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="cursor-pointer hover:bg-black text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Contact
                 </Link>
               </div>
             </div>
