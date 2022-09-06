@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Transition } from "@headlessui/react"; //This is for smooth transition between pages.
-import { Link } from "react-scroll"; //Alteranate for 'a' tag. In next js we use this for ref.
+import { Transition } from "@headlessui/react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
