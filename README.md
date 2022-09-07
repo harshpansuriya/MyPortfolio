@@ -1,3 +1,11 @@
+Hi there, Harsh here,
+
+In this repo, I created my simple portfolio web app using Next.js and TailwindCSS, you can see it on this link:
+https://harsh-portfolio-mu.vercel.app/
+
+Also, I deployed it on Vercel. You can find the step down here. 
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
