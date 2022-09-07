@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Portfolio</title>
-        <link rel="icon" href="" />
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
       <Navbar />
       <Component {...pageProps} />

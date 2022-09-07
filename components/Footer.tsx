@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div className="flex flex-col h-24 w-full items-center justify-center border-t text-white bg-black">
       <h1>
-        Made with ❤️ by <code>Harsh</code>.
+        Made with ❤️ by{" "}
+        <code className="animate-pulse text-blue-500">Harsh</code>.
       </h1>
       <p>
         {"Copyright "} &copy; {""}
